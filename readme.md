@@ -4,7 +4,7 @@
 
 with Unpkg :
 
-````
+````html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +25,7 @@ with NPM :
 npm i --save-dev mano-mano-occurrences
 ````
 
-````
+````javascript
 import Occurrences from 'mano-mano-occurrences';
 
 // or
@@ -33,7 +33,6 @@ import Occurrences from 'mano-mano-occurrences';
 const Occurrences = require('mano-mano-occurrences');
 
 ````
-
 
 ### Contributing
 
