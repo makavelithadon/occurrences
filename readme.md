@@ -22,7 +22,7 @@ with Unpkg :
 with NPM :
 
 ````
-npm i mano-mano-occurrences
+npm i --save-dev mano-mano-occurrences
 ````
 
 ````
