@@ -1,5 +1,5 @@
 {
-  "name": "occurrences",
+  "name": "mano-mano-occurrences",
   "version": "1.0.0",
   "description": "a library that tracks the occurrences of a word in a sentence",
   "repository": "https://github.com/makavelithadon/occurrences",
@@ -20,6 +20,7 @@
     "babel-loader": "^7.1.4",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "cross-env": "^5.1.3",
     "html-webpack-plugin": "^3.0.6",

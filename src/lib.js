@@ -6,6 +6,8 @@
 
  */
 
+import 'babel-polyfill';
+
 class Occurrences {
   constructor(
     text,
