@@ -6,7 +6,7 @@
 
  */
 
-export default class Occurrences {
+class Occurrences {
   constructor(
     text,
     { minLength = 2 } = {}
@@ -62,3 +62,5 @@ export default class Occurrences {
       .filter(word => word.length >= this.opts.minLength);
   }
 }
+
+module.exports = Occurrences;
