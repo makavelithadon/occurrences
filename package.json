@@ -1,6 +1,6 @@
 {
   "name": "mano-mano-occurrences",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a library that tracks the occurrences of a word in a sentence",
   "repository": "https://github.com/makavelithadon/occurrences",
   "main": "dist/main.min.js",
