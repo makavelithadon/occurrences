@@ -6,14 +6,14 @@
 
  */
 
-import 'babel-polyfill';
+//import 'babel-polyfill';
 
 class Occurrences {
   constructor(
     text,
     { minLength = 2 } = {}
   ) {
-    if (!text.trim()) throw new Error('Please provide some valid text');
+    if (!text || !text.trim()) throw new Error('Please provide some valid text');
     this._text = text;
     this._words = [];
     this.opts = {

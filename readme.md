@@ -1,4 +1,6 @@
-## Getting Started
+## A library that tracks the occurrences of a word in a sentence
+
+# Getting Started
 
 ### Use it in your app
 
@@ -32,9 +34,21 @@ import Occurrences from 'mano-mano-occurrences';
 
 const Occurrences = require('mano-mano-occurrences');
 
+const occ = new Occurrences('Lorem ipsum', { /*  options  */ });
+
+occ.getOccurrenceFrom('ipsum'); // 1
+
 ````
 
-### Contributing
+# Options
+
+#### minLength
+
+Set the minimal length of a word, if the word's length is lower then this, it will be ignore.
+
+Default : 2
+
+# Contributing
 
 clone this repository then execute this command
 
@@ -48,7 +62,7 @@ or
 yarn
 ````
 
-## Development
+# Development
 
 ````
 npm run start
@@ -56,7 +70,7 @@ npm run start
 
 Then edit files
 
-## Build
+# Build
 
 ````
 npm run build
@@ -64,7 +78,7 @@ npm run build
 
 This will clean up the dist folder and its contain and bundle the files
 
-## Tests
+# Tests
 
 ````
 npm run test

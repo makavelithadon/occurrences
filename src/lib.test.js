@@ -1,4 +1,4 @@
-const Occurrences = require('./lib').default;
+const Occurrences = require('./lib');
 
 const occ = new Occurrences('Lorem ipsum sin dolor amet consectetur');
 
